@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2908CE9B-78E6-0B47-F95A-0C91CA51968F" name="TBL_ALTERNATIVA">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<generatorID>EFB25C4C-551B-0DDC-CE8E-77DE2FF341C1</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<ordsAlias>tbl_alternativas</ordsAlias>
+<abbreviation>respostas</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ALTERNATIVA" id="9E20AB96-DA99-90BD-92A6-E0185CB7258D">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificacao da Alternativa]]></commentInRDBMS>
+<generatorID>9502E9DC-85FC-09F9-8313-B019AD91B1CC</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_ALTERNATIVA" id="D58B73A5-F0C0-616C-0A3C-459A6E0E8BB6">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição da alternativa]]></commentInRDBMS>
+<generatorID>37408218-09CB-9D62-79E7-6AB7E5BB3873</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESO_ALTERNATIVA" id="5844462C-20EE-3EFF-43E7-C328DC61BF73">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 04:25:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Peso da alternativa]]></commentInRDBMS>
+<generatorID>613A3AF0-A616-3669-CA55-27669C4C9670</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DB02412-E6B1-F7F0-2CDF-C44A2D1DFC4F" name="TBL_ALTERNATIVA_PK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<generatorID>B5F02E03-743F-207B-1374-A80C0E43A203</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E20AB96-DA99-90BD-92A6-E0185CB7258D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

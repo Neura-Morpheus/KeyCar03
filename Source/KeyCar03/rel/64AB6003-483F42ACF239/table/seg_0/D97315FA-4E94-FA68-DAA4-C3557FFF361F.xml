@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D97315FA-4E94-FA68-DAA4-C3557FFF361F" name="TBL_QUESTAO">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<generatorID>ADA4A868-3B17-D8EE-DA3E-6F221F4786AF</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<abbreviation>questoes</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERGUNTA" id="8472272E-8A88-3483-3465-6BEFCC2A3E3A">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificação da pergunta]]></commentInRDBMS>
+<generatorID>A53EA54D-F9E4-4595-55D1-1E7DC4DBF491</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DTA_PESQUISA" id="5068964D-4CD6-8520-3397-AE950C9DE375">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data da pesquisa]]></commentInRDBMS>
+<generatorID>C73EDCBC-44ED-F3FA-C41C-B66696FC8447</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_PERGUNTA" id="A1BB59CC-1BAE-E560-68B8-CB11786C5152">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição da pergunta]]></commentInRDBMS>
+<generatorID>41CCB4E7-5E6D-E858-1596-25B0D4B48808</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_CATEGORIA_ID_CATEGORIA" id="BADC2F4E-48C8-821D-4A0E-3015BA9516B8">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<generatorID>9354C545-138F-764B-4D39-94608AA97676</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF0F11ED-3AE9-EE52-CCA7-54C6BED9BF0E" referredColumn="8F93F1FD-DA1D-5AB3-CE35-3905F6B894B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57E44934-E916-310A-387A-D194CB52C3E8" name="TBL_QUESTAO_PK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<generatorID>ACDEBB21-F8C3-3FF9-60DB-F151F100CCFF</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8472272E-8A88-3483-3465-6BEFCC2A3E3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7BCC997-9878-020A-6F88-CC58ADA9F587" name="TBL_QUESTAO_TBL_CATEGORIA_FK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<generatorID>CE01173C-B1B1-E7F9-988E-B3262A37C60C</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BADC2F4E-48C8-821D-4A0E-3015BA9516B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

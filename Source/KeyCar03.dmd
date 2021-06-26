@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="KeyCar03" id="D1672068-9FA8-6456-8A27-88EFD6CFE046" version="3.5">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 02:24:13 UTC</createdTime>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D1672068-9FA8-6456-8A27-88EFD6CFE046</designId>
+</OSDM_Design>

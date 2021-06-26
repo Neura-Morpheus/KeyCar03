@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADA4A868-3B17-D8EE-DA3E-6F221F4786AF" name="PERGUNTAS">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 02:31:15 UTC</createdTime>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<engineerTo>
+<item key="64AB6003-A6E8-ADF0-2957-483F42ACF239" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TBL_QUESTAO</preferredAbbreviation>
+<shortName>questoes</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PERGUNTA" id="A53EA54D-F9E4-4595-55D1-1E7DC4DBF491">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 02:36:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificação da pergunta]]></commentInRDBMS>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<engineerTo>
+<item key="64AB6003-A6E8-ADF0-2957-483F42ACF239" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DES_PERGUNTA" id="41CCB4E7-5E6D-E858-1596-25B0D4B48808">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 02:38:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição da pergunta]]></commentInRDBMS>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<engineerTo>
+<item key="64AB6003-A6E8-ADF0-2957-483F42ACF239" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CATEGORIA" id="9354C545-138F-764B-4D39-94608AA97676">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 02:57:07 UTC</createdTime>
+<generatorID>CE01173C-B1B1-E7F9-988E-B3262A37C60C</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<engineerTo>
+<item key="64AB6003-A6E8-ADF0-2957-483F42ACF239" value="true"/>
+</engineerTo>
+<referedAttribute>F4266063-B70F-E110-81C6-F7A22E5B1FB6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACDEBB21-F8C3-3FF9-60DB-F151F100CCFF" name="PERGUNTAS PK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 02:36:30 UTC</createdTime>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="64AB6003-A6E8-ADF0-2957-483F42ACF239" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A53EA54D-F9E4-4595-55D1-1E7DC4DBF491</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

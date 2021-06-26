@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="475D8877-D4F1-2C01-752B-A92D11139DCF" containerWithKeyObject="142B21E4-1050-E46A-46BF-3DD6C76DC53E" localFKIndex="A432F70B-5F2C-A242-FBA9-E0F11A9856B9" name="TBL_RESPOSTA_TBL_QUESTAO_FK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 04:25:12 UTC</createdTime>
+<generatorID>9A229FFE-C2B0-FF11-82EA-DBD69032D54E</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<referredTableLongName>TBL_QUESTAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D97315FA-4E94-FA68-DAA4-C3557FFF361F</referredTableID>
+<keyObject>57E44934-E916-310A-387A-D194CB52C3E8</keyObject>
+<referredKeyID>57E44934-E916-310A-387A-D194CB52C3E8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PERGUNTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

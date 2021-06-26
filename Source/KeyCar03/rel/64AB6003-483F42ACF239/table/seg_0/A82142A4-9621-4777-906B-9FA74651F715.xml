@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A82142A4-9621-4777-906B-9FA74651F715" name="TBL_CATEGORIA">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<generatorID>4181F2C1-65FF-34EB-FD37-87D5C7937404</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<abbreviation>categ</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CATEGORIA" id="8F93F1FD-DA1D-5AB3-CE35-3905F6B894B2">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificação da Categoria]]></commentInRDBMS>
+<generatorID>F4266063-B70F-E110-81C6-F7A22E5B1FB6</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_CATEGORIA" id="D79D9A51-F07F-E1E9-B5AA-C87785548F42">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição da categoria]]></commentInRDBMS>
+<generatorID>6F17BA35-CC7B-4E3E-A7EF-1D0BB2FA2644</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6186F555-C1DE-467D-B13B-2F6E6DC85F28" name="TBL_CATEGORIA_PK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 03:15:17 UTC</createdTime>
+<generatorID>249174B4-B23F-6070-9BDA-124B44CF7C60</generatorID>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F93F1FD-DA1D-5AB3-CE35-3905F6B894B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

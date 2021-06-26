@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4181F2C1-65FF-34EB-FD37-87D5C7937404" name="CATEGORIAS">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 02:40:19 UTC</createdTime>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<engineerTo>
+<item key="64AB6003-A6E8-ADF0-2957-483F42ACF239" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TBL_CATEGORIA</preferredAbbreviation>
+<shortName>categ</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CATEGORIA" id="F4266063-B70F-E110-81C6-F7A22E5B1FB6">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 02:51:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificação da Categoria]]></commentInRDBMS>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<engineerTo>
+<item key="64AB6003-A6E8-ADF0-2957-483F42ACF239" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DES_CATEGORIA" id="6F17BA35-CC7B-4E3E-A7EF-1D0BB2FA2644">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 02:56:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição da categoria]]></commentInRDBMS>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<engineerTo>
+<item key="64AB6003-A6E8-ADF0-2957-483F42ACF239" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="249174B4-B23F-6070-9BDA-124B44CF7C60" name="CATEGORIAS PK">
+<createdBy>asait</createdBy>
+<createdTime>2021-06-26 02:52:00 UTC</createdTime>
+<ownerDesignName>KeyCar03</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="64AB6003-A6E8-ADF0-2957-483F42ACF239" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4266063-B70F-E110-81C6-F7A22E5B1FB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
